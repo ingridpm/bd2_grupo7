@@ -9,4 +9,5 @@ run
 	#Delete Obsolte Backups
 	#delete noprompt force obsolete;
 	#CONFIGURE CHANNEL DEVICE TYPE DISK FORMAT '/home/prueba';
+	show all;
 }
