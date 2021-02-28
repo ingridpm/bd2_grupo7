@@ -9,7 +9,6 @@
 #export PATH=$ORACLE_HOME/bin:$PATH
 #export PATH=$PATH:$ORACLE_HOME/bin
 #/u01/app/oracle/product/18.0.0/dbhome_1/bin/rman target / @/home/scripts/bd2_grupo7/script.rcv
-
 echo "Testing Database"
 gosu oracle bash<<EOF 
 export ORACLE_SID=ORCL18 
