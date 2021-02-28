@@ -4,10 +4,8 @@
 #Version 1.0
 run
 {
-	#backup as compressed backupset incremental level 1 database plus archivelog;
+	backup as compressed backupset incremental level 1 database plus archivelog;
 	#delete archivelog until time 'sysdate - 1' backed up 1 times to device type disk;
 	#Delete Obsolte Backups
 	#delete noprompt force obsolete;
-	#CONFIGURE CHANNEL DEVICE TYPE DISK FORMAT '/home/prueba';
-	show all;
 }
