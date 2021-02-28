@@ -1,11 +1,4 @@
-#Script to run Daily Incremental Backup...
-#Created 17 June 2014
-#Author : Jignesh Jethwa
-#Version 1.0
 run
 {
 	backup as compressed backupset incremental level 1 database plus archivelog;
-	#delete archivelog until time 'sysdate - 1' backed up 1 times to device type disk;
-	#Delete Obsolte Backups
-	#delete noprompt force obsolete;
 }
